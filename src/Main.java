@@ -13,6 +13,8 @@ public class Main {
 
         int [] something = {1, 2, 3, 4, 5 };
 
+
+
         System.out.println("Задача №2 ");
 
         for (int i = 0; i < weight.length; i++) {
@@ -22,26 +24,27 @@ public class Main {
             else {
                 System.out.print(weight[i]);
             }
-
         }
+
         System.out.println("");
         for (int i = 0; i < symbols.length; i++) {
             if (i != 2){
                 System.out.print(symbols[i] + ",");
             }
             else System.out.print(symbols[i]);
-
         }
+
         System.out.println("");
         for (int i = 0; i < something.length; i++) {
             if (i != 4){
                 System.out.print(something[i] + ",");
             }
             else System.out.print(something[i]);
-
         }
-        System.out.println("");
 
+
+
+        System.out.println("");
         System.out.println("Задача №3 ");
 
         for (int i = weight.length - 1; i >= 0; i--) {
@@ -69,11 +72,10 @@ public class Main {
             else {
                 System.out.println(something[i]);
             }
-
         }
+
+
         System.out.println("");
-
-
         System.out.println("Задача №4 ");
 
         int [] arr = {1, 2, 3};
