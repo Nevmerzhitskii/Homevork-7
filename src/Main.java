@@ -16,30 +16,60 @@ public class Main {
         System.out.println("Задача №2 ");
 
         for (int i = 0; i < weight.length; i++) {
-            System.out.print(weight[i] + ",");
+            if (i != 2){
+                System.out.print(weight[i] + "," );
+            }
+            else {
+                System.out.print(weight[i]);
+            }
+
         }
         System.out.println("");
         for (int i = 0; i < symbols.length; i++) {
-            System.out.print(symbols[i] + ",");
+            if (i != 2){
+                System.out.print(symbols[i] + ",");
+            }
+            else System.out.print(symbols[i]);
+
         }
         System.out.println("");
         for (int i = 0; i < something.length; i++) {
-            System.out.print(something[i] + ",");
+            if (i != 4){
+                System.out.print(something[i] + ",");
+            }
+            else System.out.print(something[i]);
+
         }
         System.out.println("");
 
         System.out.println("Задача №3 ");
 
         for (int i = weight.length - 1; i >= 0; i--) {
-            System.out.print(weight[i] + ", ");
+            if (i != 0){
+                System.out.print(weight[i] + ",");
+            }
+            else {
+                System.out.println(weight[i]);
+            }
+
         }
         System.out.println( "");
         for (int i = symbols.length - 1; i >= 0 ; i--) {
-            System.out.print(symbols[i] + ", ");
+            if (i != 0){
+                System.out.print(symbols[i] + ", ");
+            }
+            else System.out.println(symbols[i]);
+
         }
         System.out.println("");
         for (int i = something.length - 1; i >= 0; i--) {
-            System.out.print(something[i] + ", ");
+            if (i !=0){
+                System.out.print(something[i] + ", ");
+            }
+            else {
+                System.out.println(something[i]);
+            }
+
         }
         System.out.println("");
 
